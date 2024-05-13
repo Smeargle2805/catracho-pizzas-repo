@@ -1,0 +1,81 @@
+ion-card {
+    background-color: white;
+  }
+  
+  ion-img {
+    width: 100%;
+  }
+  
+  ion-card-content {
+    padding: 20px;
+  }
+  
+  ion-card-title {
+    font-size: 1.2rem;
+    color: rgb(201, 41, 41);
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+  }
+  
+  p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #precio{
+    margin-top: 5%;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium';
+    font-size: 1rem;
+  }
+
+  #lempiras{
+    font-weight: bold;
+    color: rgb(240, 42, 42);
+    font-family:'Franklin Gothic Medium';
+    font-size: 1rem;
+  }
+
+  ion-button {
+    margin-top: 10px;
+  }
+  
+  span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 10px;
+    color: black;
+  }
+
+  #menos {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  #mas {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  
+  #orden {
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  

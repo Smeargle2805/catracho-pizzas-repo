@@ -1,14 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AlertController, IonCard, IonCardHeader, IonCardContent, IonButton, IonCardTitle, IonImg } from '@ionic/angular/standalone';
+import { AlertController, IonCard, IonCardHeader, IonCardContent, IonButton, IonCardTitle, IonImg, IonContent } from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
   standalone: true,
-  imports: [IonCardContent, IonCardHeader, IonCard, IonCardTitle, CommonModule, FormsModule, IonButton, IonImg ]
+  imports: [IonContent, IonCardContent, IonCardHeader, IonCard, IonCardTitle, CommonModule, FormsModule, IonButton, IonImg ]
 })
 export class CardComponent {
 

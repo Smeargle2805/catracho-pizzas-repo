@@ -1,13 +1,12 @@
 <ion-card>
-  <ion-card-header>
-    <ion-card-title>{{ title }}</ion-card-title>
-  </ion-card-header>
   <ion-card-content>
     <ion-img [src]="image"></ion-img>
+    <ion-card-title>{{ title }}</ion-card-title>
     <p>{{ description }}</p>
-    <ion-button (click)="decreaseQuantity()">-</ion-button>
+    <p id="precio">DESDE:</p><p id="lempiras">LPS. 339.00</p>
+    <ion-button id="menos" (click)="decreaseQuantity()">-</ion-button>
     <span>{{ quantity }}</span>
-    <ion-button (click)="increaseQuantity()">+</ion-button>
-    <ion-button (click)="addToCart()">Ordenar</ion-button>
+    <ion-button id="mas" (click)="increaseQuantity()">+</ion-button>
+    <ion-button id="orden" (click)="addToCart()">Ordenar</ion-button>
   </ion-card-content>
 </ion-card>
